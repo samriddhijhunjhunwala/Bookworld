@@ -79,7 +79,7 @@
 										<div class="separator clear-left">
 											<p class="btn-details">
 												<i class="fa fa-list"></i><a
-													href="bookuser?name=Franklin and the Stopwatch" class="hidden-sm">More
+													href="details?id=341&name=Franklin and the Stopwatch&author=Sharon Jennings&price=894&publisher=Kids Can Press&status=Available&description=Kids book" class="hidden-sm">More
 													details</a>
 											</p>
 										</div>

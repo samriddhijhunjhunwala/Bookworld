@@ -31,13 +31,12 @@ public class StudentDAOImpl {
     }
    
     public void updatePerson(Student p) {
-      Session session = this.sessionFactory.getCurrentSession();
-       session.update(p);
-     
-		
-   
-      
-    }
+     // Session session = this.sessionFactory.getCurrentSession();
+      // session.update(p);
+        Session session = sessionFactory.getCurrentSession();
+        session.saveOrUpdate(p);
+        session.flush();
+     }
     
     public List<Student> listPersons() {
         Session session = this.sessionFactory.getCurrentSession();
